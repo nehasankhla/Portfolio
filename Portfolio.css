@@ -1,0 +1,130 @@
+ .outer {
+     background-image: url("use1.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: white;
+ }
+
+ nav ul {
+     display: flex;
+     justify-content: center;
+     gap: 1vw;
+      /* border: 1px solid red;  */
+ }
+
+      ul li {
+     list-style-type: none;
+     text-transform: capitalize;
+     font-weight: bold;
+     font-size: 1.5vw;
+ }
+
+   ul li:hover {
+        background-color: #E50914;
+ }
+
+    .parent {
+     /* border: 1px solid white; */
+     box-shadow: 0.2vw 0.2vw 1vw 1vw rgb(26, 23, 23);
+     height: 35vw;
+     width: 55%;
+     background-image: linear-gradient(transparent, black);
+ }
+
+ .parent:hover {
+     box-shadow: 3px 5px 10px 2px rgb(26, 23, 23);
+ }
+
+ section {
+     align-items: center;
+     padding: 0vw 1vw 0vw 30vw;
+     height: 26vw;
+     width: 80vw;
+ }
+
+ h1 {
+     text-align: center;
+     font-weight: bold;
+     font-size: 3vw;
+     font-family: sans-serif;
+     font-style: italic;
+ } 
+ .child{
+    font-size: 4vw;
+    font-family: sans-serif;
+ }
+
+ #child1 {
+     text-align: center;
+     /* padding: 0.5vw 3vw; */
+     margin-top: -0.0vw;
+    
+
+ }
+ #child2{
+    padding: 0vw 3vw;
+    margin-top: -4vw;
+    text-transform: capitalize;
+    text-align: center;
+
+ }
+ .item{
+    /* border: 1px solid yellow; */
+    width: 350px;
+ }
+
+ .child3 {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5vw;
+    margin-top: -2vw;
+ }
+
+ .child4 {
+    text-align: center;
+ }
+
+ .child5 {
+    margin-left: 8vw;
+    padding: 1vw 2vw;
+    background-color: #E50914;
+    border: none;
+    font-family: sans-serif;
+    color: white;
+    font-size: 0.8vw;
+    border-radius: 2vw;
+ }
+
+ .child5:hover {
+    background-color:#cf3840 ;
+ }
+
+ @media screen and (max-width: 800px) {
+   .child{
+      font-size: 2vw;
+      font-family: sans-serif;
+      padding: 2.2vw 1vw;
+   }
+   .child3{
+    font-size: 2vw;
+    margin-top: -1vw;
+   }
+   .child4 {
+
+      font-size: 1.5vw;
+      text-align: center;
+   }
+   .item{
+      /* border: 1px solid yellow; */
+      width: 200px;
+   }
+  
+   /* .child5 {
+      margin-left: 8vw;
+      padding: 1vw 2vw;
+      font-size: 0.8vw;
+      border-radius: 2vw;
+   }
+    */
+ }
+  
